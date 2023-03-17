@@ -1,11 +1,11 @@
 body {
-    margin:0
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-content {
     width: 1280px;
     height: 700px;
-    background-color: brown;
     margin-left: calc(50% - 640px);
     display: flex;
     gap: 30px;
@@ -15,8 +15,18 @@ body {
 
 .column {
     width: 263px;
-    background-color: yellow;
     position: relative;
+}
+
+.title {
+    text-align: center;
+    color: rgb(243, 77, 51);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.title-text {
+    margin-left: 32px;
 }
 
 .image-container {
@@ -31,8 +41,66 @@ body {
     border-radius: 50%;
     border: black 5px solid;
     position: absolute;
-    top: 0;
-    left: 0
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    top: -32px;
+
+}
+
+.one {
+    color: rgb(81, 195, 205);
+    border-color: rgb(81, 195, 205);
+}
+
+.two {
+    color: rgb(58, 110, 193);
+    border-color: rgb(58, 110, 193);
+}
+
+.three {
+    color: rgb(243, 77, 51);
+    border-color: rgb(243, 77, 51);
+}
+
+.four {
+    color: rgb(145, 145, 145);
+    border-color: rgb(145, 145, 145);
+}
+
+.rocket-home {
+    width: 80%;
+    background-color: rgb(81, 195, 205);
+}
+
+.head-home {
+    background-color: rgb(58, 110, 193);
+}
+
+.people-home {
+    background-color: rgb(243, 77, 51);
+}
+
+.arrow-home {
+    background-color: rgb(145, 145, 145);
+}
+
+.rocket {
+    width: 70%;
+}
+
+.head {
+    width: 70%;
+}
+
+.people {
+    width: 70%;
+}
+
+.arrow {
+    width: 70%;
 }
 
 .icon {
@@ -40,5 +108,7 @@ body {
     height: 230px;
     margin-top: 32px;
     margin-left: 33px;
-    background-color: rgb(94, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
